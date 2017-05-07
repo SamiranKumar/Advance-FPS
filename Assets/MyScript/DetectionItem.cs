@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+
+using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 namespace Chapter1{
 	public class DetectionItem : MonoBehaviour {
@@ -13,7 +15,7 @@ namespace Chapter1{
 
 		private Transform mTransform;
 
-		public LayerMask mLayerMask;
+		[SerializeField] private LayerMask mLayerMask;
 
 		// Use this for initialization
 		void Start () {
@@ -28,6 +30,8 @@ namespace Chapter1{
 
 		void setInitialReferences(){
 			mTransform = transform;
+
+			mLayerMask = 1 << 9;;// | 1<<8;
 		}
 
 		void detectItem(){
