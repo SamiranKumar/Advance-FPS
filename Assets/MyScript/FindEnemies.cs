@@ -22,9 +22,14 @@ namespace Chapter1{
 			if (enemise.Length > 0) {
 				Debug.Log ("enemise Leanth:"+enemise.Length);
 				foreach(GameObject go in enemise){
-					Debug.Log (go.name);
+					mDebug (go.name);
 				}
 			}
+		}
+
+
+		void mDebug(string message){
+			//  Debug.Log (message);
 		}
 	}
 

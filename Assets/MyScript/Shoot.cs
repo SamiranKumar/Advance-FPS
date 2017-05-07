@@ -45,7 +45,7 @@ namespace Chapter1{
 						mDebug ("Enemy: " + hit.transform.name);
 					} else {
 						mDebug ("Not Enemy: " + hit.transform.name);
-						Debug.Log ("Not Enemy:");
+						//Debug.Log ("Not Enemy:");
 					}
 
 

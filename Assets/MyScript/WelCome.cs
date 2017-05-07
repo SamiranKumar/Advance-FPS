@@ -39,7 +39,7 @@ public class WelCome : MonoBehaviour {
 
 
 		void mDebug(string message){
-			Debug.Log (message);
+		//	Debug.Log (message);
 			//mWelcomeMessage("mWelcomeMessage()");
 			//Debug.Log ("WelCome");
 			//Debug.Log (welcomeMessage);

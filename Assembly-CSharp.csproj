@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\MyScript\DetectionItem.cs" />
      <Compile Include="Assets\MyScript\FindEnemies.cs" />
      <Compile Include="Assets\MyScript\Shoot.cs" />
      <Compile Include="Assets\MyScript\WelCome.cs" />
