@@ -59,7 +59,7 @@ namespace Chapter1{
 		}
 
 		void mDebug(string message){
-			Debug.Log (message);
+		//	Debug.Log (message);
 		}
 
 	}

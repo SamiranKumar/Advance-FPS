@@ -15,7 +15,8 @@ namespace Chapter1{
 
 		private Transform mTransform;
 
-		[SerializeField] private LayerMask mLayerMask;
+		[SerializeField] private LayerMask mLayerMask;  //git commit -m "Add dynamic Layer Mask in script and Layer Mask define [SerializeField]"
+
 
 		// Use this for initialization
 		void Start () {
