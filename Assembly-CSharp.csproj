@@ -48,7 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\MyScript\DetectionItem.cs" />
      <Compile Include="Assets\MyScript\FindEnemies.cs" />
+     <Compile Include="Assets\MyScript\GrenadeExplosion.cs" />
      <Compile Include="Assets\MyScript\Shoot.cs" />
+     <Compile Include="Assets\MyScript\ThrowGrenade.cs" />
      <Compile Include="Assets\MyScript\TriggerExample.cs" />
      <Compile Include="Assets\MyScript\WalkThorughWalls.cs" />
      <Compile Include="Assets\MyScript\WelCome.cs" />
